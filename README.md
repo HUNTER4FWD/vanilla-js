@@ -6,7 +6,7 @@
 
 ## Ejercicio 2
 
-1. Realice el ejercicio en el archivo: ejercicio1.js
+1. Realice el ejercicio en el archivo: ejercicio2.js
 2. Cree una clase con:
    * Una propiedad valor inicializada en 0
    * Un método siguiente que incremenente el valor en 1.

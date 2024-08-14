@@ -1,7 +1,21 @@
 class Contador {
-  // Inserte el código aquí
+  constructor() {
+    this.valor = 0
+  }
+
+  siguiente() {
+    this.valor += 1
+  }
 }
 
-// Inserte el código aquí
 
-export { instancia }
+let instancia = new Contador()
+
+
+console.log(instancia.valor)
+instancia.siguiente()
+console.log(instancia.valor)
+instancia.siguiente()
+console.log(instancia.valor)
+instancia.siguiente()
+console.log(instancia.valor)
