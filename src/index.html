@@ -8,8 +8,22 @@
 
 <body>
 	<h1>La aplicación esta corriendo!</h1>
+<div class="hora">Hora de aventura</div>
+	<script src="./index.js" type="module">
+        function actualizarHora() {
+            const ahora = new Date();
+            const hora = ahora.toLocaleTimeString();
+            document.getElementById('hora').textContent = hora;
+        }
 
-	<script src="./index.js" type="module"></script>
+        // Llamar a la función cada segundo (1000 milisegundos)
+        setInterval(actualizarHora, 1000);
+
+        // Llamar a la función una vez para mostrar la hora inmediatamente al cargar la página
+        actualizarHora();
+
+
+	</script>
 </body>
 
 </html>
